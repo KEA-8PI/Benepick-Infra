@@ -10,9 +10,9 @@ services:
       - '81:81' # Admin Web Port
       # Add any other Stream port you want to expose
       # - '21:21' # FTP
-      - '10000-10010:10000-10010' # Proxy SSH  Port
-      - '20000-20010:20000-20010' # Proxy MySQL Port
-      - '30000-30100:30100-30100' # Proxy MySQL Port
+      - '10000-10010:10000-10010' # Proxy 1
+      - '20000-20010:20000-20010' # Proxy 2
+      - '30000-30100:30000-30100' # Proxy 3
 
 
     # Uncomment the next line if you uncomment anything in the section
